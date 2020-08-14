@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class Solution{
+    public static void main(String[]args){
+        Scanner obj=new Scanner(System.in);
+        int  i,sum=0;
+        int t = obj.nextInt();
+        for(int j=0;j<t;j++)
+        {
+        int a=obj.nextInt();
+       int b=obj.nextInt();
+       int n=obj.nextInt();
+        
+        
+         sum=a+b;
+
+        for (i=1;i<=n;i++){
+             System.out.print(sum+" ");
+           sum+=((Math.pow(2,i))*b);
+           
+           
+           
+        } System.out.println();
+        }
+}
+}
